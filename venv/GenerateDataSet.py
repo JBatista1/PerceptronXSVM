@@ -79,9 +79,3 @@ class GenereteDataSet:
 
         return isDifferent
 
-
-t = GenereteDataSet(10,5)
-for i in range(100):
-    xTrain, yTrain = t.getDataSetTrain()
-    print(xTrain)
-    print(yTrain)
