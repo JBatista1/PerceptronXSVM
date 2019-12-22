@@ -45,11 +45,12 @@ class GenereteDataSet:
     def __createDataSet(self, size):
         x = []
         y = []
+        x0 = 1
         for i in range(size):
-            x0 = self.__generateValueBetween()
             x1 = self.__generateValueBetween()
-            x.append([x0,x1])
-            y.append(self.__getValueY(x0, x1))
+            x2 = self.__generateValueBetween()
+            x.append([x0,x1,x2])
+            y.append(self.__getValueY(x1, x2))
 
         return x, y
 
@@ -78,4 +79,3 @@ class GenereteDataSet:
             isDifferent = True
 
         return isDifferent
-
