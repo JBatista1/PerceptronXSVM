@@ -1,13 +1,12 @@
 import numpy as np
 import random
 
-class GenereteDataSet:
+class GenereteDataSet():
     def __init__(self, sizeTrain, sizeTest):
         self.__funcTarget = []
         self.__pointsFunc = []
         self.__sizeTrain = sizeTrain
         self.__sizeTest = sizeTest
-
         self.__createBasePoints(2)
         self.__createFunc()
 
@@ -56,9 +55,9 @@ class GenereteDataSet:
 
     def __getValueY(self, x0, x1):
         value = self.__funcTarget[0]*x0+self.__funcTarget[1] - x1
-        y = 1
+        y = 0
         if value > 0:
-            y = 0
+            y = 1
         return y
 
     def __generateValueBetween(self, first= -1, second = 1):
@@ -74,8 +73,6 @@ class GenereteDataSet:
             if y[i] != y[len(y)-1]:
                 diferrents += 1
         if diferrents > 2 and diferrents < 7:
-            print("Aqui")
-            print(diferrents)
             isDifferent = True
 
         return isDifferent

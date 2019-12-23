@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5318ea07-944b-4df7-8411-9c367259c923" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/GenerateDataSet.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/GenerateDataSet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Perceptron.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Perceptron.py" afterDir="false" />
@@ -34,7 +33,33 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/venv" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.Perceptron">
+    <configuration name="DataSetManager" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PerceptronXSVM" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/DataSetManager.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="GenerateDataSet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PerceptronXSVM" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -77,9 +102,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="novoPer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PerceptronXSVM" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/novoPer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Perceptron" />
+        <item itemvalue="Python.novoPer" />
+        <item itemvalue="Python.DataSetManager" />
         <item itemvalue="Python.GenerateDataSet" />
       </list>
     </recent_temporary>
@@ -114,34 +162,54 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" width="1071" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1576977645827" />
-    <state width="1419" height="245" key="GridCell.Tab.0.bottom" timestamp="1577034611982">
+    <state width="1419" height="189" key="GridCell.Tab.0.bottom" timestamp="1577108780803">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577034611982" />
-    <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.23.1440.849@0.23.1440.849" timestamp="1576985190609" />
-    <state width="1419" height="245" key="GridCell.Tab.0.center" timestamp="1577034611980">
+    <state width="1419" height="189" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577108780803" />
+    <state width="1419" height="152" key="GridCell.Tab.0.bottom/0.23.1440.849@0.23.1440.849" timestamp="1577074114506" />
+    <state width="1419" height="189" key="GridCell.Tab.0.center" timestamp="1577108780802">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577034611980" />
-    <state width="1419" height="245" key="GridCell.Tab.0.center/0.23.1440.849@0.23.1440.849" timestamp="1576985190608" />
-    <state width="1419" height="245" key="GridCell.Tab.0.left" timestamp="1577034611980">
+    <state width="1419" height="189" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577108780802" />
+    <state width="1419" height="152" key="GridCell.Tab.0.center/0.23.1440.849@0.23.1440.849" timestamp="1577074114506" />
+    <state width="1419" height="189" key="GridCell.Tab.0.left" timestamp="1577108780801">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577034611980" />
-    <state width="1419" height="245" key="GridCell.Tab.0.left/0.23.1440.849@0.23.1440.849" timestamp="1576985190608" />
-    <state width="1419" height="245" key="GridCell.Tab.0.right" timestamp="1577034611981">
+    <state width="1419" height="189" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577108780801" />
+    <state width="1419" height="152" key="GridCell.Tab.0.left/0.23.1440.849@0.23.1440.849" timestamp="1577074114505" />
+    <state width="1419" height="189" key="GridCell.Tab.0.right" timestamp="1577108780802">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577034611981" />
-    <state width="1419" height="245" key="GridCell.Tab.0.right/0.23.1440.849@0.23.1440.849" timestamp="1576985190609" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1576976258261">
+    <state width="1419" height="189" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577108780802" />
+    <state width="1419" height="152" key="GridCell.Tab.0.right/0.23.1440.849@0.23.1440.849" timestamp="1577074114506" />
+    <state width="1419" height="303" key="GridCell.Tab.1.bottom" timestamp="1577077217519">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1576976258261" />
-    <state x="397" y="272" key="com.intellij.ide.util.TipDialog" timestamp="1577031694642">
+    <state width="1419" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577077217519" />
+    <state width="1419" height="303" key="GridCell.Tab.1.center" timestamp="1577077217518">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="397" y="272" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1577031694642" />
+    <state width="1419" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1577077217518" />
+    <state width="1419" height="303" key="GridCell.Tab.1.left" timestamp="1577077217518">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1577077217518" />
+    <state width="1419" height="303" key="GridCell.Tab.1.right" timestamp="1577077217518">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1577077217518" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1577075835863">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1577075835863" />
+    <state x="397" y="280" key="com.intellij.ide.util.TipDialog" timestamp="1577107874815">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="397" y="280" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1577107874815" />
     <state x="397" y="280" key="com.intellij.ide.util.TipDialog/0.23.1440.849@0.23.1440.849" timestamp="1576975907094" />
+    <state x="301" y="175" width="837" height="550" key="find.popup" timestamp="1577065227511">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="301" y="175" width="837" height="550" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1577065227511" />
   </component>
 </project>
