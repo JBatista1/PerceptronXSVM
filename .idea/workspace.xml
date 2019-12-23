@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5318ea07-944b-4df7-8411-9c367259c923" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/GenerateDataSet.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/GenerateDataSet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Perceptron.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Perceptron.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/novoPer.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
